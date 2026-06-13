@@ -124,7 +124,7 @@ python safe.py
 
 ### Способ 3: Готовый .exe
 
-Скачайте последнюю версию из [Releases](https://github.com/YOUR_USERNAME/secure-vault-pro/releases)
+Скачайте последнюю версию из [Releases]([https://github.com/YOUR_USERNAME/secure-vault-pro/releases](https://github.com/Python-k19/Secure-Vault-Pro/releases/tag/Secure-Vault-Pro))
 
 ---
 
