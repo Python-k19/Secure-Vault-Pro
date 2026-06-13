@@ -6,8 +6,24 @@
 ![PySide6](https://img.shields.io/badge/PySide6-6.6%2B-green?logo=qt)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Python-k19/Secure-Vault-Pro?label=Latest%20Release&color=purple)
+![GitHub all releases](https://img.shields.io/github/downloads/Python-k19/Secure-Vault-Pro/total?label=Downloads&color=orange)
 
 > 💀 **Программа, которая убивает ваши данные раньше, чем это сделают хакеры**
+
+---
+
+## 📥 Скачать последнюю версию
+
+<div align="center">
+
+### 🔽 [СКАЧАТЬ .EXE ДЛЯ WINDOWS](https://github.com/Python-k19/Secure-Vault-Pro/releases/tag/Secure-Vault-Pro) 🔽
+
+**Версия:** Secure-Vault-Pro • **Размер:** ~180 MB • **Без установки**
+
+[Все релизы и старые версии](https://github.com/Python-k19/Secure-Vault-Pro/releases)
+
+</div>
 
 ---
 
@@ -92,12 +108,20 @@
 
 ## 🚀 Установка
 
-### Способ 1: Из исходников (рекомендуется)
+### Способ 1: Скачать готовый .exe (самый простой)
+
+📥 **[Перейти на страницу релиза](https://github.com/Python-k19/Secure-Vault-Pro/releases/tag/Secure-Vault-Pro)**
+
+1. Скачайте `SecureVault.exe` из Assets
+2. Запустите — установка не требуется
+3. Папка `secure_vault_data` создастся автоматически рядом с .exe
+
+### Способ 2: Из исходников (рекомендуется для разработки)
 
 ```bash
 # Клонируйте репозиторий
-git clone https://github.com/YOUR_USERNAME/secure-vault-pro.git
-cd secure-vault-pro
+git clone https://github.com/Python-k19/Secure-Vault-Pro.git
+cd Secure-Vault-Pro
 
 # Создайте виртуальное окружение
 python -m venv .venv
@@ -115,16 +139,12 @@ pip install -r requirements.txt
 python safe.py
 ```
 
-### Способ 2: Быстрая установка
+### Способ 3: Быстрая установка
 
 ```bash
 pip install PySide6 cryptography argon2-cffi
 python safe.py
 ```
-
-### Способ 3: Готовый .exe
-
-Скачайте последнюю версию из [Releases]([https://github.com/Python-k19/Secure-Vault-Pro/releases/tag/Secure-Vault-Pro))
 
 ---
 
@@ -208,7 +228,7 @@ AES-256-GCM шифрует файлы
 
 ## 📦 Сборка в .exe
 
-### Автоматическая сборка
+### Автоматическая сборка (рекомендуется)
 
 ```bash
 python build.py
@@ -253,6 +273,14 @@ pyinstaller --onefile --windowed --icon=1.ico --collect-all=PySide6 safe.py
 
 ---
 
+## ⭐ Поддержать проект
+
+Если проект оказался полезным, поставьте звезду на GitHub:
+
+**[⭐ Star на GitHub](https://github.com/Python-k19/Secure-Vault-Pro)**
+
+---
+
 ## 📄 Лицензия
 
 Этот проект лицензирован под MIT License — см. [LICENSE](LICENSE)
@@ -270,6 +298,16 @@ pyinstaller --onefile --windowed --icon=1.ico --collect-all=PySide6 safe.py
 
 ---
 
-<p align="center">
-  <strong>Сделано с 🔒 для защиты ваших данных</strong>
-</p>
+<div align="center">
+
+**🔗 Полезные ссылки:**
+
+[📥 Скачать .exe](https://github.com/Python-k19/Secure-Vault-Pro/releases/tag/Secure-Vault-Pro) •
+[📝 Сообщить о баге](https://github.com/Python-k19/Secure-Vault-Pro/issues) •
+[💡 Предложить идею](https://github.com/Python-k19/Secure-Vault-Pro/issues)
+
+<br>
+
+<strong>Сделано с 🔒 для защиты ваших данных</strong>
+
+</div>
